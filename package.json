@@ -1,7 +1,7 @@
 {
-  "name": "minimalism",
-  "version": "0.1.00",
-  "description": "I beg you God, make sure that it is the last!",
+  "name": "personal-website",
+  "version": "",
+  "description": "Personal website for Jiahe Liu",
   "main": "index.js",
   "scripts": {
     "dev": "run-p dev:*",
@@ -23,7 +23,7 @@
     "SEO",
     "PWA"
   ],
-  "author": "Marco Micale <marcomicale@gmail.com> (https://www.marcomicale.eu/)",
+  "author": "Jiahe Liu <tonylappdev@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1",

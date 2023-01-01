@@ -22,7 +22,7 @@ module.exports = function (eleventyConfig) {
   // Non badare ai file di questa cartella
   eleventyConfig.ignores.delete("src/_11ty/_social/**/*.*");
 
-  // Copia alcuni file statici
+  // copy some static files
   eleventyConfig
     .addPassthroughCopy({ "src/_11ty/_static/app/*.*": "/" })
     .addPassthroughCopy({ "src/_11ty/_static/favicon": "favicon" })

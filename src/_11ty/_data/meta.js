@@ -2,15 +2,15 @@ module.exports = {
   //
   // Website Meta
   //  
-  language: "it-IT",
-  lang: "it",
-  siteName: "Minimalism",
-  shortName: "Minimalism",
+  language: "en_US",
+  lang: "en-us",
+  siteName: "Jiahe Liu",
+  shortName: "Personal Website",
   motto: "Simplicity is the ultimate sophistication.",
-  authorName: "Autore",
+  authorName: "Jiahe Liu",
   siteDescription: "",
   sitekeyword: "",
-  creationDate: "02/02/2022", // change this data
+  creationDate: "12/26/2022",
   url: process.env.URL || "https://www.marcomicale.eu", // change this url
   robots: "index, follow",
   //
@@ -21,14 +21,14 @@ module.exports = {
   //
   // Contact me
   //
-  mail: "marcomicale@gmail.com",
-  telephone: "",
+  mail: "tonyljbap@gmail.com",
+  telephone: "+1 (949) 998-0519",
   //
   // Social Network
   //
   twitterUser: "", 
   facebookUser: "",
-  githubUser: "",
+  githubUser: "tonyliu02",
   telegramkUser: "",
-  linkedinkUser: "",
+  linkedinkUser: "jiaheliu02",
 };

@@ -26,9 +26,7 @@ module.exports = {
   //
   // Social Network
   //
-  twitterUser: "", 
-  facebookUser: "",
+  email: "tonyljbap@gmail.com",
   githubUser: "tonyliu02",
-  telegramkUser: "",
   linkedinkUser: "jiaheliu02",
 };

@@ -10,18 +10,19 @@
   body {
     @apply container mx-auto;
   }
+  
   header,
   main,
   article,
   footer {
     @apply py-6 px-0;
   }
-  header,
+
   footer {
     @apply border-zinc-300 dark:border-zinc-800;
   }
   header {
-    @apply flex items-center justify-between gap-5 flex-col border-b;
+    @apply flex items-center justify-between gap-5 flex-col;
   }
   hgroup {
     @apply inline-block align-middle hover:text-sky-600;
@@ -41,6 +42,7 @@
   nav li {
     @apply cursor-pointer tracking-wide;
   }
+
   nav li:hover,
   nav li:focus,
   nav li:focus-within,
@@ -81,11 +83,21 @@
   .icon:focus-within {
     @apply hover:stroke-sky-600;
   }
+
+  /* set hyperlink color to be sky blue, except for the links on the nav bar */
+  li a {
+    @apply text-white;
+  }
+
+  a {
+    @apply no-underline;
+    @apply text-sky-500;
+  }
 }
 
 @media screen(sm) {
   html {
-    @apply px-6 text-lg;
+    @apply px-6 text-base;
   }
   header {
     @apply gap-6;
@@ -113,7 +125,7 @@
 
 @media screen(md) {
   html {
-    @apply px-7 text-xl;
+    @apply px-7 text-lg;
   }
   header {
     @apply gap-7 flex-row;
@@ -160,7 +172,7 @@
 
 @media screen(xl) {
   html {
-    @apply px-8 text-xl;
+    @apply px-8 text-lg;
   }
   header,
   main,
@@ -179,7 +191,7 @@
 
 @media screen(2xl) {
   html {
-    @apply px-9 text-xl;
+    @apply px-9 text-lg;
   }
   header,
   main,
